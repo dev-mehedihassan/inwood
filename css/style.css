@@ -17,6 +17,45 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.4;
 }
 /* ==== Navbar Section Style Start ==== */
+.navbar{
+    padding: 26px 0;
+    background: #FFFFFF;
+    /* width: 100%;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    z-index: 999; */
+}
+
+.navbar-nav{
+    gap: 50px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.329;
+    color: #07484A;
+    border-bottom: 3px solid transparent;
+    transition: all linear 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-weight: 700;
+    border-bottom: 3px solid #07484A;
+}
+
+.nav_actions {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.nav_actions .nav_icon {
+    font-size: 20px;
+    color: #07484A;
+}
 /* ==== Navbar Section Style End ==== */
 
 /* ==== Banner Section Style Start ==== */
@@ -45,3 +84,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ==== Navbar Section Style Start ==== */
 /* ==== Navbar Section Style End ==== */
+
+/* font-family: "Open Sans", sans-serif;
+font-family: "Playfair Display", serif;
+font-family: "Roboto", sans-serif; */
