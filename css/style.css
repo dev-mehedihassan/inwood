@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5,h6,p{
 /* ==== Navbar Section Style Start ==== */
 .navbar{
     padding: 26px 0;
-    background: #FFFFFF;
-    /* width: 100%;
+    background: transparent;
+    width: 100%;
     position: absolute;
-    top: 64px;
+    top: 0;
     left: 0;
-    z-index: 999; */
+    z-index: 999;
 }
 
 .navbar-nav{
@@ -59,6 +59,57 @@ h1,h2,h3,h4,h5,h6,p{
 /* ==== Navbar Section Style End ==== */
 
 /* ==== Banner Section Style Start ==== */
+#banner{
+    padding: 80px 150px 100px;
+    border-radius: 0 0 62px 62px;
+    height: 100vh;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_Content{
+    padding-top: 233px;
+}
+
+.banner_Content h1{
+    width: 668px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    text-transform: capitalize;
+    color: #07484A;
+}
+
+.banner_Content p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #07484A;
+    margin: 54px 0;
+}
+
+.banner_btn{
+    padding: 20px;
+    background: #70908B;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FDFBF8;
+    transition: all linear 0.3s;
+}
+
+.banner_btn:hover{
+    background: transparent;
+    color: #07484A;
+    border: 2px solid #07484A;
+}
 /* ==== Banner Section Style End ==== */
 
 /* ==== Navbar Section Style Start ==== */
