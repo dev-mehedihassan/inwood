@@ -112,8 +112,23 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Banner Section Style End ==== */
 
-/* ==== Navbar Section Style Start ==== */
-/* ==== Navbar Section Style End ==== */
+/* ==== Category Section Style Start ==== */
+#category {
+    padding: 100px 0;
+}
+
+.category_title {
+    margin-bottom: 99px;
+}
+
+.category_title h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #07484A;
+}
+/* ==== Category Section Style End ==== */
 
 /* ==== Navbar Section Style Start ==== */
 /* ==== Navbar Section Style End ==== */
