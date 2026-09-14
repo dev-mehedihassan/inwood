@@ -846,8 +846,127 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Benefits Section Style End ==== */
 
-/* ==== Navbar Section Style Start ==== */
-/* ==== Navbar Section Style End ==== */
+/* ==== Testimonials Section Style Start ==== */
+#testimonials {
+    padding: 90px 0;
+}
+
+.testimonial_main_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.2;
+    color: #07484A;
+}
+
+.testimonial_subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #07484A;
+}
+
+.quote_bg_icon {
+    font-family: 'Playfair Display', serif;
+    font-size: 180px;
+    line-height: 0.8;
+    color: #E2F0F3;
+    top: -40px;
+    left: -35px;
+    z-index: 1;
+    user-select: none;
+}
+
+.testimonial_img_box {
+    width: 100%;
+    max-width: 310px;
+    height: 310px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.testimonial_quote {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #07484A;
+    font-weight: 400;
+    max-width: 520px;
+}
+
+.author_name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #07484A;
+}
+
+.author_role {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #70908B;
+}
+
+.testimonial_controls {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav_circle_sm {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    cursor: pointer;
+    background: #E2F0F3;
+    color: #07484A;
+    transition: all linear 0.2s;
+}
+
+.nav_circle_sm.active_control {
+    background: #F8E2E2;
+}
+
+.nav_circle_sm:hover {
+    transform: scale(1.1);
+}
+
+.testimonial_progress_bar {
+    width: 100%;
+    height: 3px;
+    background: #07484A;
+    position: relative;
+}
+
+.testimonial_progress_fill {
+    width: 120px;
+    height: 7px;
+    background: #70908B;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.see_all_review_link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #07484A;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.see_all_review_link:hover {
+    color: #70908B;
+}
+/* ==== Testimonials Section Style End ==== */
 
 /* ==== Navbar Section Style Start ==== */
 /* ==== Navbar Section Style End ==== */
