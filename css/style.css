@@ -968,8 +968,69 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Testimonials Section Style End ==== */
 
-/* ==== Navbar Section Style Start ==== */
-/* ==== Navbar Section Style End ==== */
+/* ==== Newsletter Section Style Start ==== */
+#newsletter {
+    overflow: hidden;
+}
+
+.newsletter_img_box {
+    min-height: 450px;
+}
+
+.newsletter_bg_wrapper {
+    background: #E2F0F3;
+    min-height: 450px;
+}
+
+.newsletter_content {
+    max-width: 480px;
+    width: 100%;
+}
+
+.newsletter_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.15;
+    color: #07484A;
+}
+
+.newsletter_desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #07484A;
+}
+
+.newsletter_input {
+    background-color: transparent !important;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #07484A;
+}
+
+.newsletter_input::placeholder {
+    color: #93B1AC;
+    opacity: 1;
+}
+
+.newsletter_btn {
+    background: #70908B;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 32px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+}
+
+.newsletter_btn:hover {
+    background: #07484A;
+    color: #FFFFFF;
+}
+/* ==== Newsletter Section Style End ==== */
 
 /* ==== Navbar Section Style Start ==== */
 /* ==== Navbar Section Style End ==== */
