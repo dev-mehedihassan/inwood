@@ -93,142 +93,152 @@
     </section>
     <!-- ==== Banner Section End ==== -->
 
-    <!-- ==== Category Section Start ==== -->
+    <!-- Category Section Start -->
     <section id="category">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="category_title text-center">
-              <h2>Explore by Category</h2>
-            </div>
+          <div class="col-12 text-center">
+            <h2 class="category_title">Explore by Category</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row g-4 align-items-start">
           <div class="col-lg-3">
             <div class="search_wrapper">
-              <div class="search_box">
+              <div class="search_box d-flex align-items-center mb-4">
                 <i class="fa-solid fa-magnifying-glass search_icon"></i>
-                <form action="#">
-                  <input type="text" placeholder="Search" />
-                </form>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="form-control border-0 bg-transparent shadow-none"
+                />
               </div>
-              <div class="explore_wrapper">
-                <ul>
-                  <li>
-                    <a href="#">Bedroom</a>
-                  </li>
-                  <li>
-                    <a href="#">Dining Room</a>
-                  </li>
-                  <li>
-                    <a href="#">Meeting Room</a>
-                  </li>
-                  <li>
-                    <a href="#">Workspace</a>
-                  </li>
-                  <li>
-                    <a href="#">Living Room</a>
-                  </li>
-                  <li>
-                    <a href="#">Kitchen</a>
-                  </li>
-                  <li>
-                    <a href="#">Living Sapce</a>
-                  </li>
+              <div
+                class="explore_wrapper d-flex justify-content-between align-items-center mb-4"
+              >
+                <ul class="category_list list-unstyled m-0">
+                  <li><a href="#" class="active">Bedroom</a></li>
+                  <li><a href="#">Dining Room</a></li>
+                  <li><a href="#">Meeting Room</a></li>
+                  <li><a href="#">Workspace</a></li>
+                  <li><a href="#">Living Room</a></li>
+                  <li><a href="#">Kitchen</a></li>
+                  <li><a href="#">Living Space</a></li>
                 </ul>
                 <div class="slider_wrapper">
+                  <div class="slider_bar">
+                    <span class="slider_thumb"></span>
+                  </div>
                   <div class="slider_icon">
-                    <i class="fa-solid fa-arrow-up"></i>
-                    <i class="fa-solid fa-arrow-down"></i>
+                    <a href="#" class="arrow_btn up_btn">
+                      <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                    <a href="#" class="arrow_btn down_btn">
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </a>
                   </div>
                 </div>
               </div>
-              <a href="#" class="category_btn">
-                All Categories <i class="fa-solid fa-arrow-right"></i>
+              <a
+                href="#"
+                class="category_btn btn d-flex align-items-center justify-content-center"
+              >
+                All Categories <i class="fa-solid fa-arrow-right ms-2"></i>
               </a>
             </div>
           </div>
           <div class="col-lg-9">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="category_card position-relative overflow-hidden">
+            <div class="row g-3">
+              <div class="col-md-6 d-flex flex-column gap-3">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category1.png"
                     alt="Bedroom"
-                    class="img-fluid category_img"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
                     <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
-                <div class="category_card position-relative overflow-hidden">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category3.png"
-                    alt="Bedroom"
-                    class="img-fluid category_img"
+                    alt="Meeting Room"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
-                    <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
+                    <h3 class="category_name">Meeting Room</h3>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
-                <div class="category_card position-relative overflow-hidden">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category5.png"
-                    alt="Bedroom"
-                    class="img-fluid category_img"
+                    alt="Living Room"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
-                    <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
+                    <h3 class="category_name">Living Room</h3>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="category_card position-relative overflow-hidden">
+              <div class="col-md-6 d-flex flex-column gap-3">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category2.png"
-                    alt="Bedroom"
-                    class="img-fluid category_img"
+                    alt="Dining Room"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
-                    <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
+                    <h3 class="category_name">Dining Room</h3>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
-                <div class="category_card position-relative overflow-hidden">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category4.png"
-                    alt="Bedroom"
-                    class="img-fluid category_img"
+                    alt="Workspace"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
-                    <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
+                    <h3 class="category_name">Workspace</h3>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
-                <div class="category_card position-relative overflow-hidden">
+                <div
+                  class="category_card position-relative overflow-hidden rounded-4"
+                >
                   <img
                     src="./images/category6.png"
-                    alt="Bedroom"
-                    class="img-fluid category_img"
+                    alt="Kitchen"
+                    class="img-fluid w-100 category_img"
                   />
-                  <div class="category_overlay d-flex flex-column align-items-center justify-content-center text-center">
-                    <h3 class="category_name">Bedroom</h3>
-                    <a href="#" class="btn_explore">
-                        Explore
-                    </a>
+                  <div
+                    class="category_overlay d-flex flex-column align-items-center justify-content-center text-center"
+                  >
+                    <h3 class="category_name">Kitchen</h3>
+                    <a href="#" class="btn_explore">Explore</a>
                   </div>
                 </div>
               </div>
@@ -237,7 +247,7 @@
         </div>
       </div>
     </section>
-    <!-- ==== Category Section End ==== -->
+    <!-- Category Section End -->
 
     <!-- ==== Navbar Section Start ==== -->
     <!-- ==== Navbar Section End ==== -->
