@@ -302,8 +302,169 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==== Category Section Style End ==== */
 
-/* ==== Navbar Section Style Start ==== */
-/* ==== Navbar Section Style End ==== */
+/* ==== Popular Products Section Style Start ==== */
+#popular_products {
+    padding: 80px 0 100px;
+}
+
+.hero_chair_bg {
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32%;
+    max-width: 450px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero_chair_bg img {
+    width: 100%;
+    height: auto;
+}
+
+.products_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    color: #07484A;
+    margin-bottom: 60px;
+}
+
+.product_card {
+    border-radius: 16px;
+    padding: 24px 20px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    transition: all linear 0.3s;
+}
+
+.product_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(7, 72, 74, 0.08);
+}
+
+.card_mint {
+    background: #C1F1E1;
+}
+
+.card_blue {
+    background: #E2F0F3;
+}
+
+.card_purple {
+    background: #ECEAFE;
+}
+
+.card_cream {
+    background: #FAF0E4;
+}
+
+.product_img_box {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_img {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product_info {
+    text-align: left;
+}
+
+.product_name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #07484A;
+    margin-bottom: 6px;
+}
+
+.product_desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #70908B;
+    margin-bottom: 12px;
+}
+
+.product_price {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #07484A;
+}
+
+.product_slider_bar {
+    width: 100%;
+    height: 3px;
+    background: #07484A;
+    position: relative;
+    border-radius: 2px;
+}
+
+.product_slider_thumb {
+    width: 120px;
+    height: 7px;
+    background: #70908B;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+
+.prod_arrow_btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #07484A;
+    text-decoration: none;
+    transition: all linear 0.2s;
+}
+
+.prod_arrow_btn:hover {
+    transform: scale(1.1);
+    color: #07484A;
+}
+
+.left_btn {
+    background: #E2F0F3;
+}
+
+.right_btn {
+    background: #F8E2E2;
+}
+
+.btn_explore_all {
+    display: inline-block;
+    background: #70908B;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all linear 0.3s;
+}
+
+.btn_explore_all:hover {
+    background: #07484A;
+    color: #FFFFFF;
+}
+/* ==== Popular Products Section Style End ==== */
 
 /* ==== Navbar Section Style Start ==== */
 /* ==== Navbar Section Style End ==== */
