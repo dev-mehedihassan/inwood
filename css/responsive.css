@@ -1,0 +1,970 @@
+@media (max-width: 575.99px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        padding: 18px 0;
+    }
+
+    .navbar-brand img {
+        max-width: 120px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 17px;
+        padding: 8px 0;
+    }
+
+    .nav_actions {
+        gap: 25px;
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .nav_actions .nav_icon {
+        font-size: 18px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        padding: 80px 20px 60px;
+        min-height: 700px;
+        height: auto;
+        border-radius: 0 0 30px 30px;
+        background-position: center;
+    }
+
+    .banner_Content {
+        padding-top: 150px;
+        text-align: center;
+    }
+
+    .banner_Content h1 {
+        width: 100%;
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .banner_Content p {
+        font-size: 17px;
+        line-height: 1.6;
+        margin: 25px 0;
+    }
+
+    .banner_btn {
+        padding: 13px 20px;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+
+    /* ---------- Category ---------- */
+
+    #category {
+        padding: 60px 0;
+    }
+
+    .category_title {
+        margin-bottom: 40px;
+    }
+
+    .category_title h2 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .search_wrapper {
+        margin-bottom: 35px;
+    }
+
+    .search_box {
+        padding: 9px 13px;
+    }
+
+    .category_list li {
+        margin-bottom: 15px;
+    }
+
+    .category_list li a {
+        font-size: 16px;
+    }
+
+    .slider_wrapper {
+        display: none;
+    }
+
+    .category_btn {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    .category_card {
+        height: 220px;
+    }
+
+    .category_name {
+        font-size: 28px;
+    }
+
+    .btn_explore {
+        font-size: 14px;
+        padding: 7px 18px;
+    }
+
+
+    /* ---------- Popular Products ---------- */
+
+    #popular_products {
+        padding: 60px 0 70px;
+    }
+
+    .hero_chair_bg {
+        display: none;
+    }
+
+    .products_title {
+        font-size: 38px;
+        line-height: 1.2;
+        margin-bottom: 35px;
+    }
+
+    .product_card {
+        height: 350px;
+        padding: 20px 16px;
+    }
+
+    .product_img_box {
+        height: 190px;
+    }
+
+    .product_name {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .product_desc {
+        font-size: 13px;
+    }
+
+    .product_price {
+        font-size: 17px;
+    }
+
+    .product_slider_thumb {
+        width: 70px;
+    }
+
+    .product_slider_arrows {
+        justify-content: center !important;
+    }
+
+    .btn_explore_all {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+
+    /* ---------- Special Package ---------- */
+
+    #special_package {
+        padding: 60px 0;
+    }
+
+    .special_title {
+        font-size: 38px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+
+    .main_img_wrapper {
+        max-height: 300px;
+    }
+
+    .main_pkg_title {
+        font-size: 20px;
+    }
+
+    .btn_add_cart {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .main_pkg_price {
+        font-size: 20px;
+    }
+
+    .desc_heading {
+        font-size: 17px;
+    }
+
+    .desc_text {
+        font-size: 13px;
+    }
+
+    .package_item_card {
+        padding: 10px;
+    }
+
+    .active_pkg_item {
+        padding: 12px;
+    }
+
+    .pkg_thumb {
+        width: 85px;
+        height: 75px;
+    }
+
+    .pkg_details {
+        padding-left: 10px !important;
+    }
+
+    .pkg_item_title {
+        font-size: 13px;
+    }
+
+    .pkg_item_price,
+    .pkg_item_price_dark {
+        font-size: 13px;
+    }
+
+    .pkg_subtext {
+        font-size: 10px;
+    }
+
+    .slider_indicator_bar,
+    .pagination_circles {
+        display: none !important;
+    }
+
+
+    /* ---------- Our Creation ---------- */
+
+    #our_creation {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .creation_info_card,
+    .creation_card {
+        min-height: 320px;
+    }
+
+    .creation_title {
+        font-size: 32px;
+    }
+
+    .creation_subtitle {
+        font-size: 14px;
+    }
+
+    .creation_progress_bar {
+        width: 45px;
+    }
+
+    .btn_explore_rooms {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+
+    /* ---------- Benefits ---------- */
+
+    #benefits {
+        padding: 60px 0;
+    }
+
+    .benefits_main_title {
+        font-size: 35px;
+    }
+
+    .benefit_icon_box {
+        width: 65px;
+        height: 65px;
+    }
+
+    .benefit_icon_box img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    .benefit_title {
+        font-size: 22px;
+    }
+
+    .benefit_desc {
+        font-size: 14px;
+    }
+
+
+    /* ---------- Testimonials ---------- */
+
+    #testimonials {
+        padding: 60px 0;
+    }
+
+    .testimonial_main_title {
+        font-size: 38px;
+    }
+
+    .testimonial_subtitle {
+        font-size: 16px;
+    }
+
+    .quote_bg_icon {
+        font-size: 120px;
+        top: -25px;
+        left: -10px;
+    }
+
+    .testimonial_img_box {
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .testimonial_quote {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .testimonial_controls {
+        position: static !important;
+        transform: none;
+        flex-direction: row !important;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .testimonial_progress_fill {
+        width: 70px;
+    }
+
+    .see_all_review_link {
+        font-size: 10px;
+    }
+
+
+    /* ---------- Newsletter ---------- */
+
+    .newsletter_img_box {
+        min-height: 280px;
+    }
+
+    .newsletter_bg_wrapper {
+        min-height: 350px;
+    }
+
+    .newsletter_content {
+        max-width: 100%;
+        padding: 40px 20px !important;
+    }
+
+    .newsletter_title {
+        font-size: 38px;
+    }
+
+    .newsletter_desc {
+        font-size: 14px;
+    }
+
+    .newsletter_btn {
+        font-size: 14px;
+        padding: 9px 22px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer_section {
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+    .footer_logo img {
+        max-height: 24px;
+    }
+
+    .footer_heading {
+        font-size: 15px;
+    }
+
+    .address_text,
+    .footer_links li a {
+        font-size: 13px;
+    }
+
+    .copyright_text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+    .nav_actions {
+        gap: 30px;
+        margin-top: 15px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        padding: 90px 30px 70px;
+        min-height: 700px;
+        height: auto;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .banner_Content {
+        padding-top: 170px;
+        text-align: center;
+    }
+
+    .banner_Content h1 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .banner_Content p {
+        font-size: 19px;
+        line-height: 1.5;
+        margin: 30px 0;
+    }
+
+    .banner_btn {
+        font-size: 19px;
+        padding: 15px 22px;
+    }
+
+
+    /* ---------- Category ---------- */
+
+    #category {
+        padding: 70px 0;
+    }
+
+    .category_title {
+        margin-bottom: 50px;
+    }
+
+    .category_title h2 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .search_wrapper {
+        margin-bottom: 30px;
+    }
+
+    .slider_wrapper {
+        display: none;
+    }
+
+    .category_card {
+        height: 240px;
+    }
+
+    .category_name {
+        font-size: 30px;
+    }
+
+
+    /* ---------- Popular Products ---------- */
+
+    #popular_products {
+        padding: 70px 0 80px;
+    }
+
+    .hero_chair_bg {
+        display: none;
+    }
+
+    .products_title {
+        font-size: 45px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+    .product_card {
+        height: 370px;
+    }
+
+    .product_img_box {
+        height: 200px;
+    }
+
+    .product_slider_arrows {
+        justify-content: center !important;
+    }
+
+
+    /* ---------- Special Package ---------- */
+
+    #special_package {
+        padding: 70px 0;
+    }
+
+    .special_title {
+        font-size: 45px;
+    }
+
+    .main_img_wrapper {
+        max-height: 380px;
+    }
+
+    .pkg_thumb {
+        width: 110px;
+        height: 85px;
+    }
+
+
+    /* ---------- Creation ---------- */
+
+    .creation_info_card,
+    .creation_card {
+        min-height: 350px;
+    }
+
+    .creation_title {
+        font-size: 35px;
+    }
+
+
+    /* ---------- Benefits ---------- */
+
+    #benefits {
+        padding: 70px 0;
+    }
+
+    .benefits_main_title {
+        font-size: 40px;
+    }
+
+
+    /* ---------- Testimonials ---------- */
+
+    #testimonials {
+        padding: 70px 0;
+    }
+
+    .testimonial_main_title {
+        font-size: 45px;
+    }
+
+    .testimonial_img_box {
+        max-width: 280px;
+        height: 280px;
+    }
+
+    .testimonial_controls {
+        position: static !important;
+        transform: none;
+        flex-direction: row !important;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+    /* ---------- Newsletter ---------- */
+
+    .newsletter_img_box {
+        min-height: 350px;
+    }
+
+    .newsletter_bg_wrapper {
+        min-height: 400px;
+    }
+
+    .newsletter_title {
+        font-size: 45px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer_section {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        padding: 22px 0;
+    }
+
+    .navbar-nav {
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+    .nav_actions {
+        gap: 35px;
+        margin-top: 15px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        padding: 90px 50px 80px;
+        height: 750px;
+        border-radius: 0 0 45px 45px;
+    }
+
+    .banner_Content {
+        padding-top: 190px;
+    }
+
+    .banner_Content h1 {
+        width: 100%;
+        max-width: 600px;
+        font-size: 52px;
+        line-height: 1.25;
+    }
+
+    .banner_Content p {
+        font-size: 20px;
+        margin: 35px 0;
+    }
+
+    .banner_btn {
+        font-size: 20px;
+        padding: 16px 24px;
+    }
+
+
+    /* ---------- Category ---------- */
+
+    #category {
+        padding: 80px 0;
+    }
+
+    .category_title {
+        margin-bottom: 60px;
+    }
+
+    .category_title h2 {
+        font-size: 52px;
+    }
+
+    .category_card {
+        height: 240px;
+    }
+
+    .category_name {
+        font-size: 32px;
+    }
+
+    .slider_bar {
+        height: 200px;
+    }
+
+
+    /* ---------- Popular Products ---------- */
+
+    #popular_products {
+        padding: 75px 0 90px;
+    }
+
+    .hero_chair_bg {
+        width: 25%;
+        left: -70px;
+    }
+
+    .products_title {
+        font-size: 48px;
+        margin-bottom: 45px;
+    }
+
+    .product_card {
+        height: 380px;
+        padding: 20px 16px;
+    }
+
+    .product_img_box {
+        height: 200px;
+    }
+
+
+    /* ---------- Special Package ---------- */
+
+    #special_package {
+        padding: 80px 0;
+    }
+
+    .special_title {
+        font-size: 48px;
+    }
+
+    .main_img_wrapper {
+        max-height: 400px;
+    }
+
+    .pkg_thumb {
+        width: 120px;
+        height: 90px;
+    }
+
+
+    /* ---------- Creation ---------- */
+
+    .creation_info_card,
+    .creation_card {
+        min-height: 380px;
+    }
+
+    .creation_title {
+        font-size: 38px;
+    }
+
+
+    /* ---------- Benefits ---------- */
+
+    #benefits {
+        padding: 80px 0;
+    }
+
+    .benefits_main_title {
+        font-size: 45px;
+    }
+
+
+    /* ---------- Testimonials ---------- */
+
+    #testimonials {
+        padding: 80px 0;
+    }
+
+    .testimonial_main_title {
+        font-size: 48px;
+    }
+
+    .testimonial_img_box {
+        max-width: 280px;
+        height: 280px;
+    }
+
+    .testimonial_quote {
+        font-size: 18px;
+    }
+
+    .testimonial_controls {
+        right: -10px;
+    }
+
+
+    /* ---------- Newsletter ---------- */
+
+    .newsletter_img_box,
+    .newsletter_bg_wrapper {
+        min-height: 400px;
+    }
+
+    .newsletter_title {
+        font-size: 45px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer_section {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        padding: 24px 0;
+    }
+
+    .navbar-nav {
+        gap: 30px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+    .nav_actions {
+        gap: 35px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        padding: 80px 80px 100px;
+    }
+
+    .banner_Content {
+        padding-top: 220px;
+    }
+
+    .banner_Content h1 {
+        width: 580px;
+        font-size: 56px;
+        line-height: 1.3;
+    }
+
+    .banner_Content p {
+        font-size: 21px;
+        margin: 40px 0;
+    }
+
+
+    /* ---------- Category ---------- */
+
+    #category {
+        padding: 90px 0;
+    }
+
+    .category_title {
+        margin-bottom: 70px;
+    }
+
+    .category_title h2 {
+        font-size: 56px;
+    }
+
+    .category_card {
+        height: 250px;
+    }
+
+
+    /* ---------- Popular Products ---------- */
+
+    .hero_chair_bg {
+        width: 28%;
+        left: -75px;
+    }
+
+    .products_title {
+        font-size: 50px;
+    }
+
+    .product_card {
+        height: 390px;
+    }
+
+
+    /* ---------- Special Package ---------- */
+
+    .special_title {
+        font-size: 50px;
+    }
+
+    .pkg_thumb {
+        width: 120px;
+        height: 90px;
+    }
+
+
+    /* ---------- Creation ---------- */
+
+    .creation_info_card,
+    .creation_card {
+        min-height: 400px;
+    }
+
+
+    /* ---------- Benefits ---------- */
+
+    .benefits_main_title {
+        font-size: 48px;
+    }
+
+
+    /* ---------- Testimonials ---------- */
+
+    .testimonial_main_title {
+        font-size: 50px;
+    }
+
+    .testimonial_quote {
+        font-size: 19px;
+    }
+
+
+    /* ---------- Newsletter ---------- */
+
+    .newsletter_title {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar-nav {
+        gap: 40px;
+    }
+
+    .nav_actions {
+        gap: 45px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .banner_Content h1 {
+        width: 620px;
+        font-size: 60px;
+    }
+
+
+    /* ---------- Popular Products ---------- */
+
+    .hero_chair_bg {
+        width: 30%;
+        left: -80px;
+    }
+
+    .products_title {
+        font-size: 52px;
+    }
+
+
+    /* ---------- Special Package ---------- */
+
+    .special_title {
+        font-size: 52px;
+    }
+}
